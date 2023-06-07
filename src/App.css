@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+}
+
+canvas {
+  position: absolute;
+}
+
+.navbar {
+  height: 50px;
+  background-color: #4064ac;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 0px 100px;
+  font-size: 20px;
+}
+
+.newPostCard {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addPost {
+  display: flex;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addImg {
+  width: 25px;
+  cursor: pointer;
+}
+
+.postform {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: teal;
+  cursor: pointer;
+}
+
+.postInput {
+  height: 30px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.container {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;   
+}
+
+.right {
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  word-break: break-word;
+}
+
+h1 {
+   color: #4064ac;
+}
+
+.rightInput {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.rightButton {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.friendInput {
+  position: absolute;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-style: solid;
+  border-color: orange;
+}
+
+.friends {
+  font-size: 20px;
+  margin-bottom: 20px;
+  word-break: break-word;
+  
+}
+ 
+.name {
+  font-weight: bold;
+  word-break: break-word;
+}
